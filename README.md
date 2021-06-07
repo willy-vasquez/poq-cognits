@@ -20,3 +20,15 @@ Use npm test to start mocha test
 npm test
 ```
 
+### Port in use
+You can change the port for any that you want. 
+Inside the file index.js, the port is specified by:
+`const port = process.env.NODE_ENV || 3000;`
+
+## How to use
+The API shows the products of a list from an endpoint
+
+* Without filter
+    `localhost:3000/`
+    `localhost:3000/filter`
+
